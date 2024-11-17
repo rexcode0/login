@@ -1,0 +1,67 @@
+ /* Center body content */
+ body {
+    background-image: url("back3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container */
+.inputs {
+    display: grid;
+    gap: 20px;
+    border: 2px solid purple;
+    border-radius: 7px;
+    justify-items: center;
+    background-position: center center;
+    background-image: url("back2.jpg");
+    background-size: cover;
+    padding: 50px;
+    width: 50vw;
+
+}
+
+/* Input fields */
+.input {
+    width: 30%; /* Use full width of the container */
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #cef9ff;
+    background-color: #e06c58;
+    transition: transform 0.1s ease, box-shadow 0.3s ease; /*Smooth hover effects*/
+}
+
+.input:hover {
+    transform: scale(1.1); /* Scale up on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow effect */
+}
+
+/* Button styling */
+.sub {
+    width: 80%;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.sub:hover {
+    background-color: darkviolet;
+}
+@keyframes load_blur
+{
+    to {
+        backdrop-filter: blur(3);
+    }
+}
